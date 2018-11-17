@@ -11,5 +11,5 @@ def fizzbuzz_convert(number):
     return str(number)
 
 
-result = fizzbuzz_convert(1)
-print(result)
+for number in range(1, 101):
+    print(fizzbuzz_convert(number))
