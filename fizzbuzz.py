@@ -1,3 +1,5 @@
-number=int(input("1つの自然数をいれてね:"))
+number = int(input("1つの自然数をいれてね:"))
 
-print(number)
+output = str(number)
+
+print(output)
